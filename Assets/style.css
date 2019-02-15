@@ -1,0 +1,334 @@
+body {
+    background: url(../Assets/Images/dark-paths/dark-paths.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 0 auto;
+    background: #fff;
+    background-size: cover;
+    width: 100%;
+    height: 80px;
+}
+
+#navbar {
+    width: 960px;
+    text-align: center;
+    position: absolute;
+    margin-left: 140px;
+}
+
+.name {
+    float: left;
+    padding: 26px 10px 26px 10px;
+    background: #4aaaa5;
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #4aaaa5;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+nav a:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-content {
+    width: 960px;
+    text-align: center;
+    background: #fff;
+    height: 580px;
+    margin: 50px auto;
+    display: block;
+    border: 1px solid #4aaaa5;
+}
+
+.main-content h1 {
+    text-align: left;
+    color: #4aaaaf;
+    margin-left: 10px;
+    padding: 20px;
+    border-bottom: 3px solid;
+    margin-right: 10px;
+}
+
+.about_me {
+    width: 960px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px 30px 40px 30px;
+    border: 1px solid #4aaaa5;
+}
+
+.about_me h1 {
+    font-weight: 900;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.about_me p {
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#profile-pic {
+    width: 120px;
+    height: 140px;
+    display: block;
+    border: 2px solid #4aaaa5;
+    float: left;
+    margin-right: 20px;
+}
+
+.contact-form {
+    height: 900px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+input {
+    width: 95%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid #4aaaa5;
+    border-radius: 4px;
+}
+
+#form-message {
+    width: 95%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #4aaaa5;
+    border-radius: 4px;
+
+}
+
+.submit-button {
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+    color: #4aaaa5;
+}
+
+.submit-button:hover {
+    background: #4aaaa5;
+    color: #fff;
+}
+
+.portfolio div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.portfolio img {
+    /* float: left; */
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 3px solid #4aaaa5;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 980px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 980px;
+    }
+
+    .container {
+        margin: 0 auto;
+        background: #fff;
+        background-size: cover;
+        width: 100%;
+
+    }
+
+    #navbar {
+        width: 100%;
+        text-align: center;
+        position: static;
+        margin: 0 auto;
+    }
+
+    .name {
+        margin-left: 30px;
+    }
+
+    .container::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    nav ul {
+        margin-right: 40px;
+    }
+
+    .main-content {}
+
+    .main-content h1 {}
+
+    .about_me {
+        width: 65%;
+        float: left;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 768px;
+    }
+
+    .container {
+        margin: 0 auto;
+        background: #fff;
+        background-size: cover;
+        width: 768px;
+
+    }
+
+    #navbar {}
+
+    .name {
+        margin-left: 15px;
+    }
+
+    .main-content {}
+
+    .main-content h1 {}
+
+    .about_me {
+        width: 96%;
+        margin: 20px 20px auto 12px;
+    }
+
+    .about_me h1 {}
+
+    .about_me p {}
+
+    #profile-pic {}
+
+    .contact-form {}
+
+    input {}
+
+    #form-message {}
+
+    .submit-button {}
+
+    .submit-button:hover {}
+
+    .portfolio div {}
+
+    .portfolio img {}
+}
+
+@media only screen and (max-width: 640px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 640px;
+    }
+
+
+    .container {
+
+        width: 100%;
+        height: 120px;
+
+    }
+
+    #navbar {}
+
+    .name {
+        display: block;
+        width: 100%;
+        margin: -8px auto;
+    }
+
+    nav ul {
+        display: inline-block;
+        margin: 50px auto;
+        float: none;
+    }
+
+    nav li {}
+
+    .main-content {}
+
+    .main-content h1 {}
+
+    .about_me {}
+
+    .about_me h1 {}
+
+    .about_me p {}
+
+    #profile-pic {
+        width: 500px;
+        height: 450px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .contact-form {}
+
+    input {}
+
+    #form-message {}
+
+    .submit-button {}
+
+    .submit-button:hover {}
+
+    .portfolio div {}
+
+    .portfolio img {}
+}

@@ -206,7 +206,7 @@ input {
         margin-top: 25px;
     }
 
-    .main-content h1 {}
+
 
     .about_me {
         width: 60%;
@@ -241,7 +241,7 @@ input {
 
     }
 
-    #navbar {}
+
 
     .name {
         margin-left: 15px;
@@ -252,34 +252,20 @@ input {
         margin: 20px 20px auto 12px;
     }
 
-    .main-content h1 {}
+
 
     .about_me {
         width: 95%;
         margin: 20px 20px auto 12px;
     }
 
-    .about_me h1 {}
 
-    .about_me p {}
-
-    #profile-pic {}
 
     .contact-form {
         width: 100%;
     }
 
-    input {}
 
-    #form-message {}
-
-    .submit-button {}
-
-    .submit-button:hover {}
-
-    .portfolio div {}
-
-    .portfolio img {}
 }
 
 @media only screen and (max-width: 640px) {
@@ -299,7 +285,7 @@ input {
 
     }
 
-    #navbar {}
+
 
     .name {
         display: block;
@@ -313,7 +299,7 @@ input {
         float: none;
     }
 
-    nav li {}
+
 
     .main-content {
         width: 96%;
@@ -321,13 +307,6 @@ input {
         margin-bottom: 80px;
     }
 
-    .main-content h1 {}
-
-    .about_me {}
-
-    .about_me h1 {}
-
-    .about_me p {}
 
     #profile-pic {
         width: 500px;
@@ -340,15 +319,7 @@ input {
         width: 100%;
     }
 
-    input {}
 
-    #form-message {}
-
-    .submit-button {}
-
-    .submit-button:hover {}
-
-    .portfolio div {}
 
     .portfolio img {
         display: block;
@@ -356,3 +327,4 @@ input {
         height: 250px;
         margin-left: 15px;
     }
+}
